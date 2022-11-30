@@ -1,0 +1,32 @@
+.car-section {
+   text-align: center;
+}
+
+.car-section h2 {
+   margin: 25px auto;
+   color: var(--color-gray);
+   font-size: 20px;
+}
+
+.comments-section {
+   text-align: center;
+   background-color: var(--color-background-gray);
+   padding: 25px 0 10px 0;
+}
+
+.comments-section h2 {
+   font-size: 20px;
+   color: var(--color-gray);
+}
+
+@media (min-width:1200px) {
+   .car-section h2 {
+      font-size: 32px;
+   }
+
+   .comments-section h2 {
+      font-size: 32px;
+   }
+
+   
+}

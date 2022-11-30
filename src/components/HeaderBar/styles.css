@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: var(--color-light-blue)
+}
+
+header h1 {
+    font-size: 20px;
+    color: var(--color-white);
+}
+
+@media (min-width:1200px) {
+   header h1 {
+    font-size: 24px;
+   }
+}

@@ -1,0 +1,26 @@
+.comment-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid var(--color-light-blue);
+    background-color: var(--color-white);
+    margin: 20px 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.comment-card h3 {
+    color: var(--color-light-blue);
+    font-weight: 400;
+    margin: 25px 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+@media (min-width:1200px) {
+    .comment-card {
+        max-width: 960px;
+        margin: 25px auto;
+    }
+
+}
